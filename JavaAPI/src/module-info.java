@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author wkdqh
+ *
+ */
+module JavaAPI {
+}

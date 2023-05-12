@@ -1,0 +1,6 @@
+package quiz15;
+
+public class Test implements IBag {
+	
+	String[] arr = new String[100];
+}

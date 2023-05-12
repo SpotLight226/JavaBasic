@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;Quiz/src/quiz22&apos;&#x0D;&#x0A;- Original project: &apos;Work.zip_expanded&apos;&#x0D;&#x0A;- Destination element: &apos;Quiz/src/quiz22&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     quiz22.Product.java&#x0D;&#x0A;     quiz22.RegexQuiz01.java&#x0D;&#x0A;     quiz22.RegexQuiz02.java&#x0D;&#x0A;     quiz22.RegexQuiz03.java&#x0D;&#x0A;     건담.txt" description="Copy elements" destination="=Quiz/src&lt;quiz22" element1="Quiz/src/quiz22/건담.txt" element2="/Quiz\/src&lt;quiz22{Product.java" element3="/Quiz\/src&lt;quiz22{RegexQuiz01.java" element4="/Quiz\/src&lt;quiz22{RegexQuiz02.java" element5="/Quiz\/src&lt;quiz22{RegexQuiz03.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1683677374398" units="4" version="1.0"/>
+</session>

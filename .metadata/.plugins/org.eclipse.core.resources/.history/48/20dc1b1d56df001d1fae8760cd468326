@@ -1,0 +1,32 @@
+package quiz01;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.StringTokenizer;
+
+public class Main{
+
+	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); // 입력
+	
+	public static void main(String[] args) throws IOException{
+		
+		double[] arr = new double[20];
+		String[] sarr = new String[20];
+		
+		for(int i = 0; i<20; i++) {
+			StringTokenizer st = new StringTokenizer(br.readLine()," ");
+			String s = st.nextToken();
+			arr[i] = Double.parseDouble(st.nextToken());
+			sarr[i] = st.nextToken();
+			if(sarr[i] == "P") {
+				
+			}
+		}
+		
+		System.out.println(Arrays.toString(arr));
+		System.out.println(Arrays.toString(sarr));
+		
+	}
+}

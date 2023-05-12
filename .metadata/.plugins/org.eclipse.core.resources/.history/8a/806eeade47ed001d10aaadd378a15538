@@ -1,0 +1,17 @@
+package day15.api.ramda.basic;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+//		new Car(); // 인터페이스이므로 객체 생성 불가
+		
+		// 선언과 생성을 동시에 하여, 생성 가능
+		Car car = new Car() { 
+			@Override
+			public void run() {
+				System.out.println("익명 개체로 생성된 car");
+			}
+		};
+	}
+}

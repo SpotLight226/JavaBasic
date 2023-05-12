@@ -1,0 +1,52 @@
+package day15.api.ramda.stream;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import java.util.function.Predicate;
+
+public class MainClass02 {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * 람다 함수의 구현 사용문법
+		 * Predicate - 매개변수가 하나 있고, boolean형 반환
+		 * Consumer - 매개변수 하나 받고, void형 반환
+		 */
+		
+		List<Integer> list = new ArrayList<>();
+		Random ran = new Random(); // 랜덤 객체 생성
+		
+		for(int i = 0; i<100; i++) {
+			list.add( ran.nextInt(100) +1 ); // 1~100까지
+		}
+		
+		System.out.println( list.toString());
+		
+		//중간처리 함수들
+		// distinct() - 중복제거
+//		Stream<Integer> stream = list.stream();
+//		stream = stream.distinct(); // 중복 제거
+//		stream.forEach( (a) -> System.out.print(a + " ") );
+		// 한 줄로
+		list.stream().distinct().forEach( (a) -> System.out.print(a + " "));
+		
+		System.out.println("----------------------------------------------------");
+		
+		//sort() - 정렬
+		list.stream().distinct().sorted().forEach( (a) -> System.out.print(a + " "));
+		
+		//filter() - 리턴에 true값만 남기고 필터링
+		list.stream().distinct().filter( new Predicate<Integer>() { // predicate : 매개변수를 받아서, boolean타입으로 반환
+			@Override
+			public boolean test(Integer t) { 
+
+				return false;
+			}
+			
+			
+		});
+		
+	}
+}

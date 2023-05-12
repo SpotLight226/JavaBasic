@@ -1,0 +1,10 @@
+package day16.api.thread;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		//1. 작업 스레드로 사용할 객체 생성
+		ThreadTest test = new ThreadTest();
+	}
+}

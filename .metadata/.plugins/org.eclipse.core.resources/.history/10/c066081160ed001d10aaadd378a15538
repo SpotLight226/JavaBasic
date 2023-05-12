@@ -1,0 +1,8 @@
+package day15.api.ramda.stream;
+
+public class MainClass01 {
+
+	public static void main(String[] args) {
+		
+	}
+}
