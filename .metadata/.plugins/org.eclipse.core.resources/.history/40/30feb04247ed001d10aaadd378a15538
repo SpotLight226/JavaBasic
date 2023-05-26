@@ -1,6 +1,0 @@
-package day15.api.ramda.basic;
-
-public interface Car { //인터페이스
-	
-	void run(); // 추상메서드
-}
